@@ -1,0 +1,101 @@
+body {
+ background-image: url("https://cdn.glitch.me/ec2c507a-94e4-4e9b-aa37-f46c01c9a597%2Fwave.jpg?v=1639134732305");
+}
+p {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+h1 {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+  font-size: 60px;
+}
+h2 {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+}
+
+h2r {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  text-align-last: right;
+}
+
+
+h2l {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  text-align-last: left;
+}
+
+pr {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align-last: right;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+pl {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  text-align-last: left;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.invite_btn {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.invite_btn:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.invite_btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
