@@ -59,6 +59,15 @@ font-family: 'Poppins', sans-serif;
   margin-left: 80px;
 }
 
+small {
+  color: white;
+  font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
 .invite_btn {
 	box-shadow:inset 0px 1px 0px 0px #a4e271;
 	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
