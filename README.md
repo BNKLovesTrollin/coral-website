@@ -1,4 +1,5 @@
-# coral-website
-The official website of my bot
+# Coral's Website
+The official website of the verified bot, Coral!
 
-See the live page: https://coralbot.vercel.app/
+See the live page:
+coming://soon
