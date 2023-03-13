@@ -4,7 +4,7 @@ html {
 body{
     padding: 0;
     margin: 0;
-    background-color: #08b0f8;
+    background-image: linear-gradient(45deg, #0e40db, #15a0d5);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
@@ -74,7 +74,7 @@ div.flex{
 div.card{
     margin-left: auto;
     margin-right: auto;
-    background-color: #0152e9;
+    background-color: #20202059;
     border-radius: 20px;
     padding: 30px 20px;
     display: inline-block;
@@ -88,19 +88,19 @@ div.card{
     size: 100px;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #86ebfb; 
+    background: #232c58; 
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #0152e9; 
+    background: #e1e1e1; 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #003ba8; 
+    background: #c3c3c3; 
 }
 code{
     background-color: #282424;
