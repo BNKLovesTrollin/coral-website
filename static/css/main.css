@@ -81,6 +81,24 @@ div.card{
     width: 300px;
     height: fit-content;
 }
+.glow-button {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #3fa9f5;
+  box-shadow: 0px 0px 22px #3fa9f5;
+  animation: glow 2s ease-in-out infinite;
+}
+@keyframes glow {
+  0% { box-shadow: 0px 0px 22px #3fa9f5; }
+  50% { box-shadow: 0px 0px 22px #fac858; }
+  100% { box-shadow: 0px 0px 22px #3fa9f5; }
+}
 .header{
     margin-bottom: 50px;
 }
