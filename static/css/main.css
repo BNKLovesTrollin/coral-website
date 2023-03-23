@@ -98,6 +98,25 @@ div.card{
   50% { box-shadow: 0px 0px 22px #58faef; }
   100% { box-shadow: 0px 0px 22px #3fa9f5; }
 }
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  margin: 0 20px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #ff3b3f;
+}
 .header{
     margin-bottom: 50px;
 }
