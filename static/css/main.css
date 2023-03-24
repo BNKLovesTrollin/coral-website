@@ -111,10 +111,11 @@ li {
   margin: 0 20px;
 }
 a {
+  color: #FFFFFF;
   text-decoration: none;
 }
 a:hover {
-  color: #ff3b3f;
+  color: #ACCCFF;
 }
 .header{
     margin-bottom: 50px;
